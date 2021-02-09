@@ -4,7 +4,8 @@
 
   <!-- Macros de links y joints generalizados -->
   <xacro:include filename="$(find robot_craig_sim)/urdf/robot_craig_joints.xacro"/>
-
+  <!-- Import all Gazebo-customization elements, including Gazebo colors -->
+  <xacro:include filename="$(find robot_craig_sim)/urdf/robot_craig.gazebo"/>
   <!-- LINKS -->
   <!-- base -->
   <link name="base_link">
