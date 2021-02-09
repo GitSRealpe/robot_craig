@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: robot_craig_sim
+    relative_path: urdf/robot_craig.xacro
+    xacro_args: ""
+  SRDF:
+    relative_path: config/robot_craig.srdf
+  CONFIG:
+    author_name: realper
+    author_email: srealper@unal.edu.co
+    generated_timestamp: 1612842453
